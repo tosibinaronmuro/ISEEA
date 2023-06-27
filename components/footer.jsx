@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <div className="flex justify-center lg:justify-start">
               <Image
-                src="/iseea.png"
+                src="/images/iseea.png"
                 alt="ISEEA Logo"
                 width={100}
                 height={24}

@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="text-gray-900  mt-5 lg:mt-1">
-      <h6 class="mb-2 flex justify-center font-semibold uppercase md:justify-start">
+      <h6 class="mb-2 flex justify-center font-semibold uppercase  ">
         Contact
       </h6>
       {/* <p class="mb-4 flex items-center justify-center md:justify-start">
@@ -19,7 +19,7 @@ const Contact = () => {
           </svg>
           New York, NY 10012, US
         </p> */}
-      <p class="mb-2 flex items-center justify-center md:justify-start">
+      <p class="mb-2 flex items-center justify-center lg:justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ const Contact = () => {
         </svg>
         initiativeforselfesteem@gmail.com
       </p>
-      <p class="mb-2 flex items-center justify-center md:justify-start">
+      <p class="mb-2 flex items-center justify-center lg:justify-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

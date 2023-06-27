@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,12 +7,27 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+   
+     fontFamily: {
+      crimson: [ 'Crimson Text',"serif"],
+      garmond: [ 'EB Garamond',"serif"],
+      nanum: [ 'Nanum Myeongjo',"serif"],
+      Poiret: ['Poiret One', "sans"],
+    },
+    // screens: {
+    //   'xs': '320px',
+    //   ...defaultTheme.screens,
+    // },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors:{
+        'primary':"#FCC200",
+        'secondary':"#E5E5E5",
+        'tertiary':"#14213D",
+      
       },
+       
+     
+    
     },
   },
   plugins: [],

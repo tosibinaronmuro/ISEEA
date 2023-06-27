@@ -7,7 +7,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between  px-2 py-3 bg-[#EDE7E3] mb-3">
+      <nav id="top" className="relative flex flex-wrap font-garmond items-center justify-between  px-2 py-3 text-tertiary bg-secondary mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full lg:ml-10 relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start md:w-auto md:static md:block md:justify-start">
             <a className="block" href="/">
@@ -24,7 +24,7 @@ export default function Navbar({ fixed }) {
             <button
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
-              className="rounded block md:hidden lg:hidden  p-2 text-gray-600 transition hover:text-gray-600/75"
+              className="rounded block md:hidden lg:hidden  p-2 text-tertiary transition hover:text-tertiary/75"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,50 +48,50 @@ export default function Navbar({ fixed }) {
               (navbarOpen ? " flex  " : " hidden")
             }
           >
-            <ul className="flex mr-10 mt-3 lg:mt-none md:mt-none   flex-col lg:flex-row md:flex-row list-none lg:ml-auto md:ml-auto ">
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+            <ul className="flex mr-10 mt-3 lg:mt-none md:mt-none w-full lg:w-auto md:w-auto   flex-col lg:flex-row md:flex-row list-none lg:ml-auto md:ml-auto ">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   href="#pablo"
                 >
                   About
                 </a>
               </li>
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
-                  href="#pablo"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
+                  href="/team"
                 >
-                  Career
+                  Team
                 </a>
               </li>
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   href="#pablo"
                 >
                   History
                 </a>
               </li>
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   href="#pablo"
                 >
-                  Services
+                  Stories
                 </a>
               </li>
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   href="#pablo"
                 >
                   Projects
                 </a>
               </li>
-              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-gray-500 hover:-translate-y-1 hover:scale-105 hover:text-gray-500  duration-300">
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
-                  className=" lg:inline-flex lg:w-auto sm:w-full   rounded items-center   text-gray-500 transition hover:text-gray-500/75 px-3 py-2 flex"
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   target="_blank"
                   href="https://selfesteemdiary.wordpress.com/"
                 >

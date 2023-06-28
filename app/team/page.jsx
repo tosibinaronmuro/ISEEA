@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <div className="  min-h-[70vh] ">
       {/* title */}
-      <div className="bg-secondary text-tertiary flex justify-center items-center " >
+      <div className="bg-secondary text-tertiary flex justify-center items-center ">
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
         <p className="font-garmond text-4xl lg:text-6xl ">Our Team</p>
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
@@ -21,10 +21,14 @@ const Team = () => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ objectFit: 'cover',paddingRight:'10%',paddingLeft:'10%'}}
+            style={{
+              objectFit: "cover",
+              paddingRight: "10%",
+              paddingLeft: "10%",
+            }}
             fill
             priority
-          /> 
+          />
         </div>
         <div className="bg-white w-[50%] h-[31vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 right-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary mr-[10%] lg:mr-[30%]">

@@ -1,4 +1,4 @@
-export const Stories=[
+export const InspirationalStories=[
     {
     "id":1,
     "author":"Ruth ",

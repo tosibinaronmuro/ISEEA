@@ -7,7 +7,10 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav id="top" className="relative flex flex-wrap font-garmond items-center justify-between  px-2 py-3 text-tertiary bg-secondary mb-3">
+      <nav
+        id="top"
+        className="relative flex flex-wrap font-garmond items-center justify-between  px-2 py-3 text-tertiary bg-secondary mb-3"
+      >
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full lg:ml-10 relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start md:w-auto md:static md:block md:justify-start">
             <a className="block" href="/">
@@ -32,11 +35,11 @@ export default function Navbar({ fixed }) {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               </svg>

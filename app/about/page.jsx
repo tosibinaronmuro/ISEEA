@@ -1,3 +1,6 @@
+import WhoWeAre from "@/components/about-component/about";
+import AboutStories from "@/components/about-component/about-stories";
+import Mission from "@/components/about-component/mission";
 import Image from "next/image";
 import React from "react";
 
@@ -60,7 +63,12 @@ const History = () => {
       </div>
 
       {/* content */}
-      <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] "></div>
+      <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">
+   <WhoWeAre/>     
+<Mission/>
+<AboutStories/>
+
+      </div>
     </div>
   );
 };

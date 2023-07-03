@@ -2,11 +2,11 @@ import React from "react";
 
 const Error404 = () => {
   return (
-    <div class="grid h-screen px-4 bg-white place-content-center">
+    <div className="grid h-screen px-4 bg-white place-content-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1024 768"
-        class="w-auto h-56 mx-auto text-black sm:h-64"
+        className="w-auto h-56 mx-auto text-black sm:h-64"
       >
         <g fill="none" fill-rule="evenodd">
           <g fill="#FCC200">
@@ -21,17 +21,17 @@ const Error404 = () => {
           </g>
         </g>
       </svg>
-      <h1 class="tracking-widest text-tertiary font-Poiret lg:text-2xl md:text-2xl font-semibold my-10 flex justify-center items-center uppercase">
+      <h1 className="tracking-widest text-tertiary font-Poiret lg:text-2xl md:text-2xl font-semibold my-10 flex justify-center items-center uppercase">
         oops.... We can't find that page.
       </h1>
       <button>
         <a
-          class="group relative inline-block focus:outline-none focus:ring"
+          className="group relative inline-block focus:outline-none focus:ring"
           href="/"
         >
-          <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
+          <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
-          <span class="relative inline-block border-2 border-current font-Poiret font-semibold px-8 py-3 text-sm   uppercase tracking-widest text-tertiary group-active:text-opacity-75">
+          <span className="relative inline-block border-2 border-current font-Poiret font-semibold px-8 py-3 text-sm   uppercase tracking-widest text-tertiary group-active:text-opacity-75">
             Go Home
           </span>
         </a>

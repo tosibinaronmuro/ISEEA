@@ -12,6 +12,7 @@ module.exports = {
       garmond: ["EB Garamond", "serif"],
       nanum: ["Nanum Myeongjo", "serif"],
       Poiret: ["Poiret One", "sans"],
+      rock3d: ["Rock 3D", "serif"],
     },
     // screens: {
     //   'xs': '320px',
@@ -22,6 +23,7 @@ module.exports = {
         primary: "#FCC200",
         secondary: "#E5E5E5",
         tertiary: "#14213D",
+        whiteRgba: "rgba(255,255,255, 0.9)",
       },
     },
   },

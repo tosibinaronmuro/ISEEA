@@ -2,6 +2,8 @@ import TeamMember from "@/components/team-components/Team-card";
 import TeamCard2 from "@/components/team-components/Team-card2";
 import Image from "next/image";
 import React from "react";
+import {teamMembers} from '@/utilities/team-members'
+// import {teamMembers} from '../utilities/team-members'
 
 const Team = () => {
   return (
@@ -16,7 +18,7 @@ const Team = () => {
       <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
         <div className=" w-[90%] lg:w-[80%]   h-[40vh] lg:h-[60vh]   ">
           <Image
-            src="/images/team-photo.jpg"
+            src="/images/team-hero.jpg"
             alt="team photo"
             width={0}
             height={0}
@@ -30,11 +32,11 @@ const Team = () => {
             priority
           />
         </div>
-        <div className="bg-white w-[50%] h-[31vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 right-0 p-2 lg:p-14">
+        <div className="bg-whiteRgba w-[50%] h-[31vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 right-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary mr-[10%] lg:mr-[30%]">
             Meet Our Dedicated Team.
           </p>
-          <p className="font-Poiret text-xs  lg:text-lg text-tertiary mr-[20%] md:p-4 lg:p-0 lg:mr-[30%]">
+          <p className="font-Poiret text-xs font-bold  lg:text-lg text-tertiary mr-[20%] md:p-4 lg:p-0 lg:mr-[30%]">
             We've assembled an excellent team of passionate volunteers, driven
             by a shared commitment to creating positive change.
           </p>
@@ -48,10 +50,15 @@ const Team = () => {
             Our Management Team
           </p>
           <div className="  flex flex-wrap gap-3 justify-center  ">
-            {/* map function here */}
-            <TeamMember />
-            <TeamMember />
-            <TeamMember />
+          
+           { teamMembers.map((member)=>{
+            if(member.department=='management'){
+              return(
+                <TeamMember name={member.name} photo={member.photo} bio={member.bio} position={member.position} />
+              )
+            }
+           })}
+            
           </div>
         </div>
         <div className="flex flex-col space-y-8 mt-3">
@@ -60,9 +67,13 @@ const Team = () => {
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
             {/* map function here */}
-            <TeamCard2 />
-            <TeamCard2 />
-            <TeamCard2 />
+            { teamMembers.map((member)=>{
+            if(member.department=='socials'){
+              return(
+                <TeamMember name={member.name} photo={member.photo} bio={member.bio} position={member.position} />
+              )
+            }
+           })}
           </div>
         </div>
       </div>

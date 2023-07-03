@@ -1,6 +1,8 @@
 import WhoWeAre from "@/components/about-component/about";
 import AboutStories from "@/components/about-component/about-stories";
+import CoreValues from "@/components/about-component/core-values";
 import Mission from "@/components/about-component/mission";
+import { coreValues } from "@/utilities/core-values";
 import Image from "next/image";
 import React from "react";
 
@@ -64,10 +66,20 @@ const History = () => {
 
       {/* content */}
       <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">
-   <WhoWeAre/>     
-<Mission/>
-<AboutStories/>
-
+        <WhoWeAre />
+        <Mission />
+        <div className="flex flex-col">
+        <p className="font-garmond text-xl lg:text-3xl my-2">
+          CORE VALUES (I.S.E.E.A)
+        </p>
+        <div className="flex flex-wrap gap-3">
+        
+          {coreValues.map((value) => {
+            return <CoreValues value={value.value} text={value.text} />;
+          })}
+        </div>
+        </div>
+        
       </div>
     </div>
   );

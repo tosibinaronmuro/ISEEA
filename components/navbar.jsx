@@ -55,6 +55,14 @@ export default function Navbar({ fixed }) {
               <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
                   className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
+                <a
+                  className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
                   href="/about"
                 >
                   About

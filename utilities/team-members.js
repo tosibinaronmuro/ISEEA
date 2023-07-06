@@ -48,7 +48,7 @@ export const teamMembers = [
     photo: "/images/team-members/Rosemary.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          perferendis hic asperiores quidsbusdam quidem voluptates doloremque
           reiciendis nostrum harum. Repudiandae?`,
   },
   {

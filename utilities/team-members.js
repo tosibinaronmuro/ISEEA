@@ -38,7 +38,7 @@ export const teamMembers = [
   {
     name: "OMOLOLA OLAYIOYE",
     position: "Blog Writer",
-    photo: "/images/team-members/omolola.jpg",
+    photo: "/images/team-members/omololaNew.jpg",
     department: "socials",
     bio: `Omolola Olayioye is a law graduate from the University of Abuja. She is adept at research, drafting, debating, mooting, and writing. Her writings have earned her several awards and prizes including a scholarship to the Nigerian law school. She also has several published articles and a personal blog.`,
   },

@@ -6,8 +6,8 @@ const Navigation = () => {
     className="mt-12 flex flex-wrap justify-center gap-6 md:gap-6 lg:mt-0 lg:justify-end lg:gap-6"
   >
     <li>
-      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/about">
-        About
+      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/">
+        Home
       </a>
     </li>
 

@@ -1,7 +1,7 @@
-import WhoWeAre from "@/components/about-component/about";
-import AboutStories from "@/components/about-component/about-stories";
-import CoreValues from "@/components/about-component/core-values";
-import Mission from "@/components/about-component/mission";
+import WhoWeAre from "@/components/home-component/who-are-we";
+import AboutStories from "@/components/home-component/home-stories";
+import CoreValues from "@/components/home-component/core-values";
+import Mission from "@/components/home-component/mission";
 import { coreValues } from "@/utilities/core-values";
 import Image from "next/image";
 import React from "react";
@@ -59,7 +59,7 @@ const History = () => {
             Get to know us!
           </p>
           <p className="font-Poiret text-xs  font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
-            Find out who we are and what makes us tick
+          Empowering individuals, transforming lives. Join us in our mission to create a brighter future.
           </p>
         </div>
       </div>

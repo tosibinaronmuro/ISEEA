@@ -30,7 +30,7 @@ const Projects = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba  w-[50%] h-[31vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-50 right-0 p-2 lg:p-14">
+        <div className="bg-whiteRgba  w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-50 right-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary lg:m-auto">
             Projects and Activities
           </p>
@@ -42,7 +42,7 @@ const Projects = () => {
       </div>
 
       {/* content */}
-      <div className="bg-white flex flex-col  pb-8 pt-5 pl-[3%]  pr-[10%] ">
+      <div className="bg-white flex flex-col  pb-8 pt-5   ">
            <div>
             {
               ProjectsJSON.map((project)=>{

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Project = ({projectName,projectDetails,projectsPhoto}) => {
   return (
-    <div className="flex flex-col mb-10  mx-[15%]
+    <div className="flex flex-col mb-10  mx-[5%]
       mt-3  ">
        <div className=" bg-slate-600     ">
     <Image

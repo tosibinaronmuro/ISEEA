@@ -29,7 +29,7 @@ export const teamMembers = [
   {
     name: "EUNICE AMEH",
     position: "Project Officer",
-    photo: "/images/team-members/Rosemary.jpg",
+    photo: "/images/team-members/joyce.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque

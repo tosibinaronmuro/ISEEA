@@ -31,7 +31,7 @@ const Stories = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba w-[50%] h-[31vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 left-0 p-2 lg:p-14">
+        <div className="bg-whiteRgba w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 left-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary ml-[10%] lg:ml-[30%]">
             Be inspired by our Stories
           </p>

@@ -1,3 +1,4 @@
+import Timeline from "@/components/history-components/timeline";
 import Image from "next/image";
 import React from "react";
 
@@ -28,28 +29,23 @@ const History = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba w-[50%] h-[20vh] md:h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 left-50 p-2 lg:p-14">
+        <div className="bg-whiteRgba w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 left-50 p-2 lg:p-14">
           <p className="flex justify-center mx-[10%]  lg:justify-start md:justify-start font-garmond text-lg lg:text-3xl text-tertiary  lg:m-auto md:m-auto">
             Here is a recap of our journey
           </p>
           <p className="font-Poiret text-xs font-bold  lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
-          Embark on a transformative journey as we trace the impactful milestones that shape ISEEA's rich history.
+            Embark on a transformative journey as we trace the impactful
+            milestones that shape ISEEA's rich history.
           </p>
         </div>
       </div>
 
       {/* content */}
       <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">
-
-
+        <Timeline />
       </div>
-      
-      
-      
-      
-      </div>
-        
-  )
-}
+    </div>
+  );
+};
 
-export default History
+export default History;

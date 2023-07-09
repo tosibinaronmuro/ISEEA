@@ -10,11 +10,11 @@ const CoreValues = ({value,text}) => {
         <p className='text-2xl font-garmond text-tertiary'>{value}</p>
     </div>
 
-    <a href="#">
+    <div>
       <h3 className="mt-0.5 text-base   font-Poiret lg:font-semibold text-gray-900">
         {text}
       </h3>
-    </a>
+    </div>
 
     
   </div>

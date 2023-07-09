@@ -10,7 +10,7 @@ export const ProjectsJSON = [
   {
     id: 2,
     projectName: "TEENAGE HANGOUT 1.0",
-    projectDetails: `In line with our goals, to build a network of young people that respects each other's individuality, we began an annual hangout for young people. We had over 25 people in attendance. We spoke to them about the vision of the organization, the importance of self-esteem, and its place in helping us achieve our dreams. We also created time for the young people to know each other, organized games, and ate! The feedbacks of participants were amazing and can be found here
+    projectDetails: `In line with our goals, to build a network of young people that respects each other's individuality, we began an annual hangout for young people. We had over 25 people in attendance. We spoke to them about the vision of the organization, the importance of self-esteem, and its place in helping us achieve our dreams. We also created time for the young people to know each other, organized games, and ate.
     `,
     projectsPhotos: "/images/hangout1.jpeg",
   },

@@ -33,7 +33,7 @@ const History = () => {
           <p className="flex justify-center mx-[10%]  lg:justify-start md:justify-start font-garmond text-lg lg:text-3xl text-tertiary  lg:m-auto md:m-auto">
             Here is a recap of our journey
           </p>
-          <p className="font-Poiret text-xs font-bold  lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
+          <p className="font-Poiret text-xs lg:font-bold  lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
             Embark on a transformative journey as we trace the impactful
             milestones that shape ISEEA's rich history.
           </p>

@@ -40,7 +40,7 @@ const Home = () => {
           <p className="flex justify-start font-garmond text-base lg:text-3xl text-tertiary">
             INITIATIVE FOR SELF ESTEEM EDUCATION AND ADVOCACY (ISEEA)
           </p>
-          <p className="font-Poiret text-xs  font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0   ">
+          <p className="font-Poiret text-xs  lg:font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0   ">
             Nurturing Self-Esteem, Empowering Nigerian Youth: ISEEA's
             Transformative Impact through Media, Mentorship, and Advocacy.
           </p>

@@ -34,7 +34,7 @@ const Projects = () => {
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary lg:m-auto">
             Projects and Activities
           </p>
-          <p className="font-Poiret text-xs font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
+          <p className="font-Poiret text-xs lg:font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
           Explore our impactful projects and activities that drive positive change, addressing pressing issues and transforming lives.
           </p>
         </div>

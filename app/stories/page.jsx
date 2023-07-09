@@ -35,7 +35,7 @@ const Stories = () => {
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary ml-[10%] lg:ml-[30%]">
             Be inspired by our Stories
           </p>
-          <p className="font-Poiret text-xs font-bold  lg:text-lg text-tertiary ml-[20%] md:p-4 lg:p-0 lg:ml-[30%]">
+          <p className="font-Poiret text-xs lg:font-bold  lg:text-lg text-tertiary ml-[20%] md:p-4 lg:p-0 lg:ml-[30%]">
             Discover the extraordinary journeys and inspirational stories that
             fuels our mission for a better world.
           </p>

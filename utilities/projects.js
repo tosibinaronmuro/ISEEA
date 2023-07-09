@@ -16,6 +16,14 @@ export const ProjectsJSON = [
   },
   {
     id: 3,
+    projectName: "TEENAGE HANGOUT 2.0 ",
+    projectDetails: `This was the second edition of a yearly program we began in 2022. Through these hangouts, we fuse fun and learning to create awareness about self esteem and low self esteem.
+    For this edition, we partnered with an NGO advocating for SDG 4, Nigeria Reads, to give age appropriate books to all attendees. By giving them those books, we invested in their personal development and expanded their capacities to dream bigger.
+    Hangout 2.0 also featured a pitch competition after which we awarded scholarships to 6 children until the completion of their secondary education. `,
+    projectsPhotos: "/images/hangout2.jpeg",
+  },
+  {
+    id: 4,
     projectName: "ADVOCACY PROGRAM ",
     projectDetails: `On the heel of international women's day, 2022, we were invited to an orphanage home to speak to the children about the importance of self-esteem and its impact on our ability to achieve our dreams.We were represented by
     our founder, Rosemary Ochiwu
@@ -23,7 +31,7 @@ export const ProjectsJSON = [
     projectsPhotos: "/images/advocacyProgram.jpeg",
   },
   {
-    id: 4,
+    id: 5,
     projectName: "WEBINARS & GROUP SESSIONS ",
     projectDetails: `Our engagement with community members on Facebook revealed that a major cause of low self-esteem is lack of personal development. To solve this, we began monthly webinar series and weekly engagement. We had guest speakers discuss diverse issues that impacted personal growth career wise and aided the development of social skills like emotional intelligence. Our weekly engagement sessions is anchored by team members on WhatsApp. It features topics that affect our self esteem and ultimately, our mental health and well being
     `,

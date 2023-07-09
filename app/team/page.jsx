@@ -1,9 +1,8 @@
-import TeamMember from "@/components/team-components/Team-card";
-import TeamCard2 from "@/components/team-components/Team-card2";
+import { lazy } from "react";
+const TeamMember = lazy(() => import("@/components/team-components/Team-card"));
 import Image from "next/image";
 import React from "react";
-import {teamMembers} from '@/utilities/team-members'
-// import {teamMembers} from '../utilities/team-members'
+import { teamMembers } from "@/utilities/team-members";
 
 const Team = () => {
   return (
@@ -50,15 +49,18 @@ const Team = () => {
             Our Management Team
           </p>
           <div className="  flex flex-wrap gap-3 justify-center  ">
-          
-           { teamMembers.map((member)=>{
-            if(member.department=='management'){
-              return(
-                <TeamMember name={member.name} photo={member.photo} bio={member.bio} position={member.position} />
-              )
-            }
-           })}
-            
+            {teamMembers.map((member) => {
+              if (member.department == "management") {
+                return (
+                  <TeamMember
+                    name={member.name}
+                    photo={member.photo}
+                    bio={member.bio}
+                    position={member.position}
+                  />
+                );
+              }
+            })}
           </div>
         </div>
         <div className="flex flex-col space-y-8 mt-3">
@@ -67,13 +69,18 @@ const Team = () => {
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
             {/* map function here */}
-            { teamMembers.map((member)=>{
-            if(member.department=='socials'){
-              return(
-                <TeamMember name={member.name} photo={member.photo} bio={member.bio} position={member.position} />
-              )
-            }
-           })}
+            {teamMembers.map((member) => {
+              if (member.department == "socials") {
+                return (
+                  <TeamMember
+                    name={member.name}
+                    photo={member.photo}
+                    bio={member.bio}
+                    position={member.position}
+                  />
+                );
+              }
+            })}
           </div>
         </div>
       </div>

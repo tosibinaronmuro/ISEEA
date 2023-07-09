@@ -10,17 +10,17 @@ export const teamMembers = [
   },
   {
     name: "FLORENCE ISIKA",
-    position: "Program Officer",
+    position: "Content Creator",
     photo: "/images/team-members/Florence.jpg",
-    department: "management",
+    department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
           reiciendis nostrum harum. Repudiandae?`,
   },
   {
     name: "FESTUS NTONG",
-    position: "Communications Officer",
-    photo: "/images/team-members/Rosemary.jpg",
+    position: "Operations Consultant",
+    photo: "/images/team-members/festus.png",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
@@ -28,7 +28,16 @@ export const teamMembers = [
   },
   {
     name: "EUNICE AMEH",
-    position: "Project Officer",
+    position: "Secretary",
+    photo: "/images/team-members/eunice.jpeg",
+    department: "management",
+    bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?`,
+  },
+  {
+    name: "JOYCE ODABI",
+    position: "Program Manager",
     photo: "/images/team-members/joyce.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
@@ -43,18 +52,18 @@ export const teamMembers = [
     bio: `Omolola Olayioye is a law graduate from the University of Abuja. She is adept at research, drafting, debating, mooting, and writing. Her writings have earned her several awards and prizes including a scholarship to the Nigerian law school. She also has several published articles and a personal blog.`,
   },
   {
-    name: "FOGO ADEWALE",
-    position: "Secretary",
-    photo: "/images/team-members/Rosemary.jpg",
-    department: "management",
+    name: "MOFOGOFUNOLUWA EUNICE ADEWALE",
+    position: "Content Creator ",
+    photo: "/images/team-members/adewale.png",
+    department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quidsbusdam quidem voluptates doloremque
           reiciendis nostrum harum. Repudiandae?`,
   },
   {
-    name: "FUNMILAYO FALAYE",
+    name: "CHINONSO CHRISTIAN OSUMUNE",
     position: "Legal Officer",
-    photo: "/images/team-members/Rosemary.jpg",
+    photo: "/images/team-members/christian.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
@@ -62,19 +71,27 @@ export const teamMembers = [
   },
   {
     name: "EDNA PADA",
-    position: "Social Media Manager",
-    photo: "/images/team-members/Rosemary.jpg",
+    position: "Content Creator",
+    photo: "/images/team-members/edna.jpeg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
     perferendis hic asperiores quibusdam quidem voluptates doloremque
     reiciendis nostrum harum. Repudiandae?`,
   },
-  //     {
-  //     name:'',
-  //     position:'',
-  //     photo:'/images/team-members/Rosemary.jpg',
-  //     department:'management'
-//       bio:'',
-
-  // },
+   
+   
 ];
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

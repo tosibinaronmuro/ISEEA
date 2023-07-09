@@ -20,9 +20,9 @@ const TeamMember = ({photo,name,position,bio}) => {
       <div
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
-        <p className="text-md lg:font-semibold  text-secondary font-Poiret">
+        {/* <p className="text-md lg:font-semibold  text-secondary font-Poiret">
           {bio}
-        </p>
+        </p> */}
       </div>
     </div>
   </div>

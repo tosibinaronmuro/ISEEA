@@ -26,7 +26,7 @@ const Numbers = () => {
             244,900
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
+            <p className="text-neutral-500 font-Poiret lg:font-semibold  ">
             Has been raised so far for projects
             </p>
           </div>
@@ -50,7 +50,7 @@ const Numbers = () => {
               344,000
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
+            <p className="text-neutral-500 font-Poiret lg:font-semibold  ">
               Has been raised so far for humanitarian interventions
             </p>
           </div>
@@ -75,7 +75,7 @@ const Numbers = () => {
               5
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Projects</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
+            <p className="text-neutral-500 font-Poiret lg:font-semibold  ">
               we have embarked on 5 projects so far and have a lot more projects on our list
             </p>
           </div>

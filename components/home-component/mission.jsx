@@ -607,10 +607,10 @@ const Mission = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0 border border-secondary p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-lg font-semibold text-primary font-garmond">
+                <span className="block mb-2 text-lg lg:font-semibold text-primary font-garmond">
                   Our Vision
                 </span>
-                <p className="mb-8 text-base text-body-color font-Poiret font-semibold">
+                <p className="mb-8 text-base text-body-color font-Poiret lg:font-semibold">
                   is to see an increased awareness of the importance of
                   self-esteem and the effects of low self-esteem, and to be a
                   catalyst for a youthful population that is more self-aware and
@@ -618,10 +618,10 @@ const Mission = () => {
                 </p>
               </div>
               <div className="mt-10 lg:mt-0 border border-secondary p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-lg font-semibold text-primary font-garmond">
+                <span className="block mb-2 text-lg lg:font-semibold text-primary font-garmond">
                   Our Mission
                 </span>
-                <p className="mb-8 text-base text-body-color font-Poiret font-semibold">
+                <p className="mb-8 text-base text-body-color font-Poiret lg:font-semibold">
                   To equip young people with the knowledge they need to overcome
                   low self-esteem using media, mentorship, partnership with
                   relevant stakeholders, advocacy programs, and impact projects

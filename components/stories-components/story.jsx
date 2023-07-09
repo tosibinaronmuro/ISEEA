@@ -11,7 +11,7 @@ const Story = ({ story, author }) => {
       </div>
       <div className="flex items-start sm:gap-8">
         <div>
-          <p className="mt-1 text-lg text-tertiary font-semibold font-Poiret text-justify  pb-6">
+          <p className="mt-1 text-lg text-tertiary lg:font-semibold font-Poiret text-justify  pb-6">
             <span className="text-4xl font-garmond text-primary">“</span>
             {story}
             <span className="text-4xl font-garmond text-primary">”</span>

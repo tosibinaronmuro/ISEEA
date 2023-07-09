@@ -9,7 +9,7 @@ const WhoWeAre = () => {
             WHO ARE WE?
           </h2>
 
-          <p className="  text-gray-500 font-Poiret font-semibold md:mt-4 text-justify md:block">
+          <p className="  text-gray-500 font-Poiret lg:font-semibold md:mt-4 text-justify md:block">
             Initiative for Self Esteem Education and Advocacy (ISSEA) is a
             corporate body duly registered under the Companies and Allied
             matters Act of Nigeria with registration number 184681. Prior to

@@ -607,18 +607,18 @@ const Mission = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0 border border-secondary p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-lg lg:font-semibold text-primary font-garmond">
+                <span className="block mb-2 text-xl md:text-2xl lg:text-4xl lg:font-semibold text-tertiary  font-garmond">
                   Our Vision
                 </span>
                 <p className="mb-8 text-base text-body-color font-Poiret lg:font-semibold">
-                  is to see an increased awareness of the importance of
+                  To see an increased awareness of the importance of
                   self-esteem and the effects of low self-esteem, and to be a
                   catalyst for a youthful population that is more self-aware and
                   resilient.
                 </p>
               </div>
               <div className="mt-10 lg:mt-0 border border-secondary p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-lg lg:font-semibold text-primary font-garmond">
+                <span className="block mb-2 text-xl md:text-2xl lg:text-4xl lg:font-semibold text-tertiary  font-garmond">
                   Our Mission
                 </span>
                 <p className="mb-8 text-base text-body-color font-Poiret lg:font-semibold">

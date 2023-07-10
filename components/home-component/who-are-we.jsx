@@ -10,17 +10,17 @@ const WhoWeAre = () => {
           </h2>
 
           <p className="  text-gray-500 font-Poiret lg:font-semibold md:mt-4 text-justify md:block">
-            Initiative for Self Esteem Education and Advocacy (ISSEA) is a
-            corporate body duly registered under the Companies and Allied
-            matters Act of Nigeria with registration number 184681. Prior to
-            registration, it was an online platform with the name Self Esteem
-            Diary (SED). We are a non-profit youth-centered hub committed to
+            Initiative for Self Esteem Education and Advocacy (ISSEA) is a non-profit youth-centered hub committed to
             achieving Sustainable Development Goal 3 which aims to Ensure
             Healthy Lives & Promote Well-Being for All at All Ages. We focus on
             promoting awareness of the importance of self-esteem,
             self-awareness, and the effects of low-self-esteem in Nigeria
             through media, mentorship, partnership, advocacy programs, and
-            impact projects in local communities.
+            impact projects in local communities. ISEEA is a
+            corporate body duly registered under the Companies and Allied
+            matters Act of Nigeria with registration number 184681. Prior to
+            registration, it was an online platform with the name Self Esteem
+            Diary (SED).
           </p>
 
            

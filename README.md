@@ -38,4 +38,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or further information, please contact the ISEEA team at [initiativeforselfesteem@gmail.com](mailto:initiativeforselfesteem@gmail.com). We appreciate your interest in our work and welcome any collaboration opportunities. Visit our website at [https://iseea.vercel.app](https://iseea.vercel.app) to learn more about our organization and initiatives.
+For any inquiries or further information, please contact the ISEEA team at [initiativeforselfesteem@gmail.com](mailto:initiativeforselfesteem@gmail.com). We appreciate your interest in our work and welcome any collaboration opportunities. Visit our website at [www.iseea.vercel.app](https://iseea.vercel.app) to learn more about our organization and initiatives.

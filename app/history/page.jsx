@@ -15,7 +15,7 @@ const History = () => {
       <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
         <div className=" w-[90%] lg:w-[80%]   h-[40vh] lg:h-[60vh]   ">
           <Image
-            src="/images/team-photo.jpg"
+            src="/images/history.jpg"
             alt="team photo"
             width={0}
             height={0}

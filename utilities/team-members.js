@@ -2,7 +2,7 @@ export const teamMembers = [
   {
     name: "ROSEMARY OCHIWU",
     position: "Executive Director",
-    photo: "/images/team-members/Rosemary.jpg",
+    photo: "/images/team-members/Rosemary (1).jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
@@ -20,7 +20,7 @@ export const teamMembers = [
   {
     name: "FESTUS NTONG",
     position: "Operations Consultant",
-    photo: "/images/team-members/festus.png",
+    photo: "/images/team-members/festus2.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
@@ -54,7 +54,7 @@ export const teamMembers = [
   {
     name: "MOFOGOFUNOLUWA EUNICE ADEWALE",
     position: "Content Creator ",
-    photo: "/images/team-members/adewale.png",
+    photo: "/images/team-members/adewale.jpg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quidsbusdam quidem voluptates doloremque
@@ -63,7 +63,7 @@ export const teamMembers = [
   {
     name: "CHINONSO CHRISTIAN OSUMUNE",
     position: "Legal Officer",
-    photo: "/images/team-members/christian.jpg",
+    photo: "/images/team-members/christian (1).jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque
@@ -72,7 +72,7 @@ export const teamMembers = [
   {
     name: "EDNA PADA",
     position: "Content Creator",
-    photo: "/images/team-members/edna.jpeg",
+    photo: "/images/team-members/edna.jpg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
     perferendis hic asperiores quibusdam quidem voluptates doloremque

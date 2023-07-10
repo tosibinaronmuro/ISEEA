@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Initiative for Self Esteem Education and Advocacy (ISEEA) NGO Website
+
+This is the official repository for the Initiative for Self Esteem Education and Advocacy (ISEEA) website. The website is built with Next.js 13 and Tailwind CSS. It features multiple pages, including the Home page, Projects page, Stories page, Blog link, and Team Members page.
+
+## Pages
+
+### Home Page
+The Home page serves as the landing page for the website, providing an overview of ISEEA's mission, values, and impact. It showcases compelling content and imagery to engage visitors and encourage them to explore further.
+
+### Projects Page
+The Projects page presents detailed information about the various initiatives and programs run by ISEEA. Visitors can learn about the ongoing projects, their objectives, and the positive impact they have on communities. This page includes images, descriptions, and success stories related to each project.
+
+### Stories Page
+The Stories page features inspiring stories of individuals who have benefited from ISEEA's programs and services. These stories highlight the transformative power of self-esteem education and advocacy. The page includes testimonials, personal accounts, and multimedia content to create a powerful and emotional connection with the audience.
+
+### Blog Link
+The Blog link redirects visitors to ISEEA's official blog, where they can access in-depth articles, news, and updates related to self-esteem education, advocacy, and relevant topics. The blog provides valuable insights, educational resources, and thought-provoking content to further engage and inform visitors.
+
+### Team Members Page
+The Team Members page introduces the dedicated individuals who form the backbone of ISEEA. It showcases their expertise, roles, and contributions to the organization's mission. Visitors can learn more about the passionate team members driving the impactful work of ISEEA.
 
 ## Getting Started
 
-First, run the development server:
+To run the ISEEA NGO website locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `npm install` or `yarn install`.
+3. Start the development server by running `npm run dev` or `yarn dev`.
+4. Access the website in your browser at `http://localhost:3000`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+We welcome contributions to enhance the ISEEA NGO website. If you have any suggestions, improvements, or bug fixes, please feel free to submit a pull request. Make sure to follow the guidelines for contributing outlined in the repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any inquiries or further information, please contact the ISEEA team at [initiativeforselfesteem@gmail.com](mailto:initiativeforselfesteem@gmail.com). We appreciate your interest in our work and welcome any collaboration opportunities. Visit our website at [https://iseea.vercel.app](https://iseea.vercel.app) to learn more about our organization and initiatives.

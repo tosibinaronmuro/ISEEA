@@ -35,7 +35,7 @@ const Team = () => {
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary mr-[10%] lg:mr-[30%]">
             Meet Our Dedicated Team.
           </p>
-          <p className="font-Poiret text-xs font-bold  lg:text-lg text-tertiary mr-[20%] md:p-4 lg:p-0 lg:mr-[30%]">
+          <p className="font-Poiret text-xs lg:font-bold  lg:text-lg text-tertiary mr-[20%] md:p-4 lg:p-0 lg:mr-[30%]">
             We've assembled an excellent team of passionate volunteers, driven
             by a shared commitment to creating positive change.
           </p>

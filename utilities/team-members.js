@@ -72,7 +72,7 @@ export const teamMembers = [
   {
     name: "EDNA PADA",
     position: "Content Creator",
-    photo: "/images/team-members/edna.jpg",
+    photo: "/images/team-members/edna.jpeg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
     perferendis hic asperiores quibusdam quidem voluptates doloremque

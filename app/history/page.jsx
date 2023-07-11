@@ -8,7 +8,7 @@ const History = () => {
       {/* title */}
       <div className="bg-secondary text-tertiary flex justify-center items-center ">
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
-        <p className="font-garmond text-4xl lg:text-6xl ">Our History</p>
+        <p className="font-garmond text-4xl font-bold lg:text-6xl ">Our History</p>
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
       </div>
       {/* image */}
@@ -30,10 +30,10 @@ const History = () => {
           />
         </div>
         <div className="bg-whiteRgba w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 left-50 p-2 lg:p-14">
-          <p className="flex justify-center mx-[10%]  lg:justify-start md:justify-start font-garmond text-lg lg:text-3xl text-tertiary  lg:m-auto md:m-auto">
+          <p className="flex justify-center mx-[10%]  lg:justify-start md:justify-start font-garmond text-lg lg:text-3xl text-white  lg:m-auto md:m-auto">
             Here is a recap of our journey
           </p>
-          <p className="font-Poiret text-xs lg:font-bold  lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
+          <p className="font-Poiret text-xs lg:font-bold  lg:text-lg text-white  md:p-4 lg:p-0  mx-[10%]">
             Embark on a transformative journey as we trace the impactful
             milestones that shape ISEEA's rich history.
           </p>

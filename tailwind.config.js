@@ -8,22 +8,21 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      crimson: ["Crimson Text", "serif"],
+      merriweather: ["Merriweather Sans", "serif"],
+      notoSans: ["Noto Sans TC", "serif"],
+      nunito: ["Nunito", "serif"],
+      robotoSlab: ["Roboto Slab", "serif"],
+      roboto: ["Roboto", "serif"],
       garmond: ["EB Garamond", "serif"],
-      nanum: ["Nanum Myeongjo", "serif"],
-      Poiret: ["Poiret One", "sans"],
-      rock3d: ["Rock 3D", "serif"],
+      Poiret: ["Poiret One", "sans"]
     },
-    // screens: {
-    //   'xs': '320px',
-    //   ...defaultTheme.screens,
-    // },
+
     extend: {
       colors: {
         primary: "#FCC200",
         secondary: "#E5E5E5",
         tertiary: "#14213D",
-        whiteRgba: "rgba(255,255,255, 0.9)",
+        whiteRgba: "rgba(255,255,255, 0)",
       },
       keyframes: {
         wave: {

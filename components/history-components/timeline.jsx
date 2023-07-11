@@ -46,8 +46,10 @@ const Timeline = () => {
           <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
             <div className="flex h-full items-center rounded-lg bg-secondary p-6 text-center text-tertiary lg:pl-12 lg:text-left">
               <div className="lg:pl-12">
-                <h2 className="mb-8 text-3xl font-garmond">Where it all began</h2>
-                <p className="font-Poiret my-3 lg:font-semibold text-justify">
+                <h2 className="mb-8 text-3xl font-garmond">
+                  Where it all began
+                </h2>
+                <p className="font-merriweather my-3  text-justify">
                   It was sometime in April 2020. It was a new day for many but
                   for a young girl forced to return home from the Nigerian Law
                   School due to Covid 19 pandemic, it did not feel like it. She
@@ -75,8 +77,7 @@ const Timeline = () => {
                   fatter than her elder sisters and that put her on the
                   receiving end of many cruel jokes and unsolicited advice.
                 </p>
-                <p className="font-Poiret my-3 lg:font-semibold text-justify">
-                 
+                <p className="font-notoSans my-3  text-justify">
                   Many times, "well-meaning" individuals would give blunt advice
                   on how she needed to watch her body weight because she would
                   look unattractive to men when she grew older. She turned to
@@ -84,8 +85,7 @@ const Timeline = () => {
                   and she transferred that passion to her academic books. In one
                   of her write ups, she wrote:
                 </p>
-                <p className="font-Poiret my-3 lg:font-semibold text-justify italic">
-                 
+                <p className="font-nunito my-3  text-justify  ">
                   "If I'm not good at anything, at least, I can study hard & no
                   one can take that away from me. It worked for my self-esteem,
                   especially when I started collecting prizes for being the best
@@ -99,16 +99,17 @@ const Timeline = () => {
                   of being noticed. I believed when people saw me, all they saw
                   was my size. I could not look into a mirror because it
                   reminded me of their words. Years later, conversations with
-                  coursemates revealed two things.<br></br> 1- While I was going through
-                  that phase, they thought I just loved keeping to myself. Many
-                  could not imagine that I had chronic low self-esteem. 
-                  <br />2-Many
-                  young people are going through low self-esteem like I did but
-                  they have no one to share with & no help because little
-                  attention is given to self-esteem issues, despite their
+                  coursemates revealed two things.<br></br> 1- While I was going
+                  through that phase, they thought I just loved keeping to
+                  myself. Many could not imagine that I had chronic low
+                  self-esteem.
+                  <br />
+                  2-Many young people are going through low self-esteem like I
+                  did but they have no one to share with & no help because
+                  little attention is given to self-esteem issues, despite their
                   importance".
                 </p>
-                <p className="font-Poiret my-3 lg:font-semibold text-justify">
+                <p className="font-roboto my-3  text-justify">
                   Some months after she began the blog, it became clear that she
                   needed to do more by reaching out to more young people through
                   other channels. So, she opened a Facebook group and created
@@ -116,16 +117,22 @@ const Timeline = () => {
                   sibling, she paid for a canva class and learnt how to do basic
                   graphic designs to begin sharing content on those social media
                   platforms. In a short while, the Facebook Community grew to
-                  over 2,600 people spanning different countries. That girl is
-                  now the Executive Director of Initiative for Self Esteem
-                  Education and Advocacy (ISEEA). At the fore of all that ISEEA
-                  does is the question: "What can we do to help more more young
-                  people going through low self esteem?" This question drove her
-                  to set up a team and in February 2022, they executed their
-                  first offline project, Hangout 1.0, to take the message about
-                  the importance of self-esteem offline and into the streets.
+                  over 2,600 people spanning different countries.{" "}
                 </p>
-                <p className="font-Poiret my-3 lg:font-semibold text-justify">
+                <p className="font-robotoSlab my-3  text-justify">
+                  That girl is now the Executive Director of Initiative for Self
+                  Esteem Education and Advocacy (ISEEA).
+                </p>
+                <p className="font-robotoSlab my-3  text-justify">
+                  {" "}
+                  At the fore of all that ISEEA does is the question: "What can
+                  we do to help more more young people going through low self
+                  esteem?" This question drove her to set up a team and in
+                  February 2022, they executed their first offline project,
+                  Hangout 1.0, to take the message about the importance of
+                  self-esteem offline and into the streets.
+                </p>
+                <p className="font-merriweather my-3  text-justify">
                   During this time, the need to place structures became
                   important and so, a few months later, on 20th July 2022, what
                   began as a blog with the name Self Esteem Diary became

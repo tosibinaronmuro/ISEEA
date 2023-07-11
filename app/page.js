@@ -36,8 +36,8 @@ const Home = () => {
             priority
           />
         </div>
-        <div className="bg-blackRgba w-[80%]   blackRgba h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center  absolute bottom-50 left-50 p-2  ">
-          <div className="w-[55%] h-auto    ">
+        <div className="bg-blackRgba w-[80%]   blackRgba h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center  absolute bottom-0 left-50 p-2  ">
+          <div className="w-[55%] h-auto mt-44   ">
           <p className="flex justify-start font-garmond text-base font-bold lg:text-4xl text-white">
             INITIATIVE FOR SELF ESTEEM EDUCATION AND ADVOCACY (ISEEA)
           </p>

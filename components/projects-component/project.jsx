@@ -24,7 +24,7 @@ const Project = ({ projectName, projectDetails, projectsPhoto }) => {
         <p className="bg-primary p-2      py-5 pl-10 pr-[15%]">{projectName}</p>
       </div>
       <div className="bg-secondary     py-5 pl-10 pr-[15%]   ">
-        <p className="mt-1 text-lg text-tertiary lg:font-semibold font-Poiret text-justify  pb-6">
+        <p className="mt-1 text-lg text-tertiary  font-Poiret text-justify  pb-6">
           {projectDetails}
         </p>
       </div>

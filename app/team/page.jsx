@@ -10,7 +10,7 @@ const Team = () => {
       {/* title */}
       <div className="bg-secondary text-tertiary flex justify-center items-center ">
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
-        <p className="font-garmond text-4xl lg:text-6xl ">Our Team</p>
+        <p className="font-garmond text-4xl font-bold lg:text-6xl ">Our Team</p>
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
       </div>
       {/* image */}

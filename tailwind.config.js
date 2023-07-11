@@ -14,7 +14,7 @@ module.exports = {
       robotoSlab: ["Roboto Slab", "serif"],
       roboto: ["Roboto", "serif"],
       garmond: ["EB Garamond", "serif"],
-      Poiret: ["Poiret One", "sans"]
+      Poiret: ["Merriweather Sans", "serif"]
     },
 
     extend: {

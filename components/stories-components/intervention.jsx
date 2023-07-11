@@ -10,7 +10,7 @@ const Interventions = ({number,story }) => {
         <div className=" text-primary   flex float-left pr-4  items-center  ">
             <p className="text-[5rem]  lg:text-[10rem] md:text-[10rem]  font-crimson ">{number}</p>
         </div>
-          <p className="mt-1 text-lg text-tertiary lg:font-semibold font-Poiret text-justify  pb-6">
+          <p className="mt-1 text-lg text-tertiary font-Poiret text-justify  pb-6">
             <span className="text-4xl font-garmond text-primary">“</span>
             {story}
             <span className="text-4xl font-garmond text-primary">”</span>

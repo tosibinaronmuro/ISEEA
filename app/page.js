@@ -15,7 +15,7 @@ const Home = () => {
       {/* title */}
       <div className="bg-secondary text-tertiary flex justify-center items-center ">
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
-        <p className="font-garmond text-4xl lg:text-6xl">I.S.E.E.A</p>
+        <p className="font-garmond text-4xl font-bold lg:text-6xl">I.S.E.E.A</p>
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
       </div>
       {/* image */}

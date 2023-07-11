@@ -11,7 +11,7 @@ const CoreValues = ({value,text}) => {
     </div>
 
     <div>
-      <h3 className="mt-0.5 text-base   font-Poiret lg:font-semibold text-gray-900">
+      <h3 className="mt-0.5 text-base   font-Poiret text-gray-900">
         {text}
       </h3>
     </div>

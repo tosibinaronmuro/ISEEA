@@ -14,7 +14,7 @@ const AboutStories = () => {
             className="w-full rounded-2xl"
           />
         </div>
-        <div className="rounded-lg border border-gray-100 bg-white font-Poiret lg:font-semibold  p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+        <div className="rounded-lg border border-gray-100 bg-white font-Poiret   p-4 shadow-sm transition hover:shadow-lg sm:p-6">
           <p className="mt-2 line-clamp-6 text-sm/relaxed lg:text-lg text-tertiary">
             Hi, my good friends from the self-esteem group. My name is Thabiso
             from South Africa in Pretoria. When I started this group, I was from
@@ -37,7 +37,7 @@ const AboutStories = () => {
 
           <a
             href="/stories"
-            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg lg:font-semibold text-primary"
+            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg  text-primary"
           >
             Find out more
             <span

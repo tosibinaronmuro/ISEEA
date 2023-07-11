@@ -9,7 +9,7 @@ const WhoWeAre = () => {
             WHO ARE WE?
           </h2>
 
-          <p className="  text-gray-500 font-Poiret lg:font-semibold md:mt-4 text-justify md:block">
+          <p className="  text-gray-500 font-Poiret md:mt-4 text-justify md:block">
             Initiative for Self Esteem Education and Advocacy (ISSEA) is a non-profit youth-centered hub committed to
             achieving Sustainable Development Goal 3 which aims to Ensure
             Healthy Lives & Promote Well-Being for All at All Ages. We focus on

@@ -8,7 +8,7 @@ const HomeProjects = () => {
       </div>
       <div className="flex flex-row gap-x-5 lg:py-5">
         
-        <div className="rounded-lg border border-gray-100 bg-white font-Poiret lg:font-semibold  p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+        <div className="rounded-lg border border-gray-100 bg-white font-Poiret  p-4 shadow-sm transition hover:shadow-lg sm:p-6">
           <p className="mt-2 line-clamp-6 text-sm/relaxed lg:text-lg text-tertiary">
           In March 2022, we heard about the story of
     a 15 years old girl in Galadimawa community in FCT-Abuja, who grew up with a father that constantly demoralized her and threatened to kill them. She developed chronic low self-esteem & an intense need to be loved and accepted which made her easy prey for a sexual predator. He took advantage of her low self-esteem & manipulated her into making nude video calls with him which he recorded and eventually, it found its way online. After a visit to the community, we birthed Project H.E.L.P. to teach children within about the importance of self-esteem and its place in preventing sexual abuse. We raised the sum of 193,000 naira through peer to peer fundraising campaign for the project.
@@ -16,7 +16,7 @@ const HomeProjects = () => {
 
           <a
             href="/projects"
-            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg lg:font-semibold text-primary"
+            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg text-primary"
           >
             Find out more
             <span

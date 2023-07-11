@@ -20,11 +20,11 @@ const Project = ({ projectName, projectDetails, projectsPhoto }) => {
           priority
         />
       </div>
-      <div className=" text-2xl text-tertiary">
-        <p className="bg-primary p-2      py-5 pl-10 pr-[15%]">{projectName}</p>
+      <div className=" text-2xl text-black">
+        <p className="bg-primary p-2   font-bold   py-5 pl-10 pr-[15%]">{projectName}</p>
       </div>
-      <div className="bg-secondary     py-5 pl-10 pr-[15%]   ">
-        <p className="mt-1 text-lg text-tertiary  font-Poiret text-justify  pb-6">
+      <div className="bg-black     py-5 pl-10 pr-[15%]   ">
+        <p className="mt-1 text-lg text-white  font-Poiret text-justify  pb-6">
           {projectDetails}
         </p>
       </div>

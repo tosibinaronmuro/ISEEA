@@ -31,7 +31,7 @@ const Team = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 right-0 p-2 lg:p-14">
+        {/* <div className="bg-whiteRgba w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-0 right-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary mr-[10%] lg:mr-[30%]">
             Meet Our Dedicated Team.
           </p>
@@ -39,13 +39,24 @@ const Team = () => {
             We've assembled an excellent team of passionate volunteers, driven
             by a shared commitment to creating positive change.
           </p>
+        </div> */}
+         <div className="bg-blackRgba w-[80%]   blackRgba h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center  absolute bottom-50 left-50 p-2  ">
+          <div className="w-[55%] h-auto    ">
+          <p className="flex justify-start font-garmond text-base font-bold lg:text-4xl text-white">
+          Meet Our Dedicated Team.
+          </p>
+          <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
+          We've assembled an excellent team of passionate volunteers, driven
+            by a shared commitment to creating positive change.
+          </p>
+          </div>
         </div>
       </div>
 
       {/* content */}
       <div className="bg-white  pb-8 pt-5  pl-[10%] pr-[10%] ">
         <div className="flex flex-col space-y-8">
-          <p className="font-garmond text-xl lg:text-3xl ">
+          <p className="font-garmond text-xl font-bold lg:text-3xl ">
             Our Management Team
           </p>
           <div className="  flex flex-wrap gap-3 justify-center  ">
@@ -57,6 +68,7 @@ const Team = () => {
                     photo={member.photo}
                     bio={member.bio}
                     position={member.position}
+                    key={member.id}
                   />
                 );
               }
@@ -64,7 +76,7 @@ const Team = () => {
           </div>
         </div>
         <div className="flex flex-col space-y-8 mt-3">
-          <p className="font-garmond text-xl lg:text-3xl ">
+          <p className="font-garmond  font-bold text-xl lg:text-3xl ">
             Our Social Media Team
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
@@ -77,6 +89,7 @@ const Team = () => {
                     photo={member.photo}
                     bio={member.bio}
                     position={member.position}
+                    key={member.id}
                   />
                 );
               }

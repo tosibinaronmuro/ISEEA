@@ -44,9 +44,9 @@ const Timeline = () => {
           </div>
 
           <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
-            <div className="flex h-full items-center rounded-lg bg-secondary p-6 text-center text-tertiary lg:pl-12 lg:text-left">
+            <div className="flex h-full items-center rounded-lg bg-black p-6 text-center text-white lg:pl-12 lg:text-left">
               <div className="lg:pl-12">
-                <h2 className="mb-8 text-3xl font-garmond">
+                <h2 className="mb-8 text-3xl font-bold font-garmond text-primary">
                   Where it all began ...
                 </h2>
                 <p className="font-Poiret my-3  text-justify">
@@ -85,7 +85,7 @@ const Timeline = () => {
                   and she transferred that passion to her academic books. In one
                   of her write ups, she wrote:
                 </p>
-                <p className="font-Poiret my-3  text-justify  ">
+                <p className="font-Poiret my-3  text-justify italic ">
                   "If I'm not good at anything, at least, I can study hard & no
                   one can take that away from me. It worked for my self-esteem,
                   especially when I started collecting prizes for being the best
@@ -117,14 +117,13 @@ const Timeline = () => {
                   sibling, she paid for a canva class and learnt how to do basic
                   graphic designs to begin sharing content on those social media
                   platforms. In a short while, the Facebook Community grew to
-                  over 2,600 people spanning different countries.{" "}
+                  over 2,600 people spanning different countries. 
                 </p>
                 <p className="font-Poiret my-3  text-justify">
                   That girl is now the Executive Director of Initiative for Self
                   Esteem Education and Advocacy (ISEEA).
                 </p>
                 <p className="font-Poiret my-3  text-justify">
-                  {" "}
                   At the fore of all that ISEEA does is the question: "What can
                   we do to help more more young people going through low self
                   esteem?" This question drove her to set up a team and in

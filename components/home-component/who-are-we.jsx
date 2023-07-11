@@ -2,14 +2,14 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <section className="overflow-hidden bg-secondary sm:grid sm:grid-cols-2 rounded-xl sm:items-center">
+    <section className="overflow-hidden bg-black sm:grid sm:grid-cols-2 rounded-xl sm:items-center">
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
           <h2 className="text-2xl font-bold font-garmond text-primary md:text-3xl">
             WHO ARE WE?
           </h2>
 
-          <p className="  text-gray-500 font-Poiret md:mt-4 text-justify md:block">
+          <p className="  text-white font-Poiret md:mt-4 text-justify md:block">
             Initiative for Self Esteem Education and Advocacy (ISSEA) is a non-profit youth-centered hub committed to
             achieving Sustainable Development Goal 3 which aims to Ensure
             Healthy Lives & Promote Well-Being for All at All Ages. We focus on

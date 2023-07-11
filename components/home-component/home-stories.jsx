@@ -4,7 +4,7 @@ const AboutStories = () => {
   return (
     <div className="flex flex-col">
       <div>
-        <p className="font-garmond text-xl lg:text-3xl ">IMPACT STORIES</p>
+        <p className="font-garmond text-xl font-bold lg:text-3xl ">IMPACT STORIES</p>
       </div>
       <div className="flex flex-row gap-x-5 lg:py-5">
         <div className="min-h-[10vh] w-auto flex justify-center items-center m-auto min-w-[30%] lg:min-h-[10vh] lg:min-w-[18%]">
@@ -14,8 +14,8 @@ const AboutStories = () => {
             className="w-full rounded-2xl"
           />
         </div>
-        <div className="rounded-lg border border-gray-100 bg-white font-Poiret   p-4 shadow-sm transition hover:shadow-lg sm:p-6">
-          <p className="mt-2 line-clamp-6 text-sm/relaxed lg:text-lg text-tertiary">
+        <div className="rounded-lg border border-gray-100 bg-black font-Poiret   p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+          <p className="mt-2 line-clamp-6 text-sm/relaxed lg:text-lg text-white">
             Hi, my good friends from the self-esteem group. My name is Thabiso
             from South Africa in Pretoria. When I started this group, I was from
             a situation where I come from a drug addiction problem. I used to

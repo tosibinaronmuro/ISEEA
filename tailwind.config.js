@@ -22,7 +22,7 @@ module.exports = {
         primary: "#FCC200",
         secondary: "#E5E5E5",
         tertiary: "#14213D",
-        whiteRgba: "rgba(255,255,255, 0)",
+        blackRgba: "rgba(0,0,0, 0.6)",
       },
       keyframes: {
         wave: {

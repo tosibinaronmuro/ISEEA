@@ -11,25 +11,28 @@ const Navigation = () => {
       </a>
     </li>
 
-    <li>
-      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/stories">
-        Stories
-      </a>
-    </li>
 
     <li>
       <a className="text-gray-700 transition hover:text-gray-700/75"  href="/history">
         History
       </a>
     </li>
-    <li>
-      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/team">
-        Team
-      </a>
-    </li>
+    
     <li>
       <a className="text-gray-700 transition hover:text-gray-700/75"  href="/">
         Projects
+      </a>
+    </li>
+
+    <li>
+      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/stories">
+        Impact
+      </a>
+    </li>
+
+    <li>
+      <a className="text-gray-700 transition hover:text-gray-700/75"  href="/team">
+        Team
       </a>
     </li>
 

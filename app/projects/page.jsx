@@ -30,13 +30,23 @@ const Projects = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba  w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-50 right-0 p-2 lg:p-14">
+        {/* <div className="bg-whiteRgba  w-[50%]  min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-50 right-0 p-2 lg:p-14">
           <p className="flex justify-start font-garmond text-lg lg:text-3xl text-tertiary lg:m-auto">
             Projects and Activities
           </p>
           <p className="font-Poiret text-xs lg:font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0  mx-[10%]">
           Explore our impactful projects and activities that drive positive change, addressing pressing issues and transforming lives.
           </p>
+        </div> */}
+        <div className="bg-blackRgba w-[80%]   blackRgba h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center  absolute bottom-50 left-50 p-2  ">
+          <div className="w-[55%] h-auto    ">
+          <p className="flex justify-start font-garmond text-base font-bold lg:text-4xl  text-white">
+          Projects and Activities
+          </p>
+          <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
+          Explore our impactful projects and activities that drive positive change, addressing social issues and transforming lives.
+          </p>
+          </div>
         </div>
         
       </div>

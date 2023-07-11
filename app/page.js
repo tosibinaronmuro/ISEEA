@@ -20,9 +20,9 @@ const Home = () => {
       </div>
       {/* image */}
       <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
-        <div className=" w-[90%] lg:w-[80%]   h-[40vh] lg:h-[60vh]   ">
+        <div className=" w-[90%] px-[10%] lg:w-[80%] blackRgba h-[40vh] lg:h-[60vh]   ">
           <Image
-            src="/images/aboutHero.jpg"
+            src="/images/homeHero1.jpg"
             alt="team photo"
             width={0}
             height={0}
@@ -36,14 +36,16 @@ const Home = () => {
             priority
           />
         </div>
-        <div className="bg-whiteRgba w-[50%] min-h-[15vh] md:min-h-[25vh] flex flex-col justify-center items-center   lg:h-[30vh] absolute bottom-50 left-50 p-2 lg:p-14">
-          <p className="flex justify-start font-garmond text-base lg:text-3xl text-tertiary">
+        <div className="bg-blackRgba w-[80%]   blackRgba h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center  absolute bottom-50 left-50 p-2  ">
+          <div className="w-[55%] h-auto    ">
+          <p className="flex justify-start font-garmond text-base font-bold lg:text-4xl text-white">
             INITIATIVE FOR SELF ESTEEM EDUCATION AND ADVOCACY (ISEEA)
           </p>
-          <p className="font-Poiret text-xs  lg:font-bold lg:text-lg text-tertiary  md:p-4 lg:p-0   ">
+          <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
             Nurturing Self-Esteem, Empowering Nigerian Youth: ISEEA's
-            Transformative Impact through Media, Mentorship, and Advocacy.
+            Transformative Impact through Media, Mentorship, Community Projects and Advocacy.
           </p>
+          </div>
         </div>
       </div>
 
@@ -53,12 +55,12 @@ const Home = () => {
         <WhoWeAre />
         <Mission />
         <div className="flex flex-col">
-          <p className="font-garmond text-xl lg:text-3xl my-2">
+          <p className="font-garmond text-xl font-bold flex justify-center lg:text-3xl my-2">
             CORE VALUES (I.S.E.E.A)
           </p>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 justify-center ">
             {coreValues.map((value) => {
-              return <CoreValues value={value.value} text={value.text} />;
+              return <CoreValues value={value.value} text={value.text} key={value.id} />;
             })}
           </div>
         </div>

@@ -11,7 +11,7 @@ const Numbers = () => {
     <div className="grid lg:grid-cols-3 lg:gap-x-12">
       <div className="mb-16 lg:mb-0">
         <div
-          className="block h-full rounded-lg bg-tertiary shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
+          className="block h-full rounded-lg bg-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
@@ -26,7 +26,7 @@ const Numbers = () => {
             244,900
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
+            <p className="text-white font-Poiret font-semibold  ">
             Has been raised so far for projects
             </p>
           </div>
@@ -35,7 +35,7 @@ const Numbers = () => {
 
       <div className="mb-16 lg:mb-0">
         <div
-          className="block h-full rounded-lg bg-tertiary shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
+          className="block h-full rounded-lg bg-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
@@ -50,7 +50,7 @@ const Numbers = () => {
               344,000
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
+            <p className="text-white font-Poiret font-semibold  ">
               Has been raised so far for humanitarian interventions
             </p>
           </div>
@@ -59,7 +59,7 @@ const Numbers = () => {
 
       <div className="">
         <div
-          className="block h-full rounded-lg bg-tertiary shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
+          className="block h-full rounded-lg bg-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
@@ -75,8 +75,8 @@ const Numbers = () => {
               5
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Projects</h5>
-            <p className="text-neutral-500 font-Poiret font-semibold  ">
-              we have embarked on 5 projects so far and have a lot more projects on our list
+            <p className="text-white font-Poiret font-semibold  ">
+              We have embarked on 5 projects so far and have a lot more projects on our list
             </p>
           </div>
         </div>

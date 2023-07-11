@@ -2,10 +2,10 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="container my-24 mx-auto md:px-6">
+    <div className="container my-5 mx-auto md:px-6">
       <section className="mb-32">
         <div className="flex flex-wrap">
-          <div className="mb-12 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
+          <div className="mb-4 w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
             <div className="lg:py-12 flex">
               <img
                 src="/images/history2.jpg"

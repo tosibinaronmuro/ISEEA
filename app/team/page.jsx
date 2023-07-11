@@ -57,7 +57,7 @@ const Team = () => {
       <div className="bg-white  pb-8 pt-5  pl-[10%] pr-[10%] ">
         <div className="flex flex-col space-y-8">
           <p className="font-garmond text-xl font-bold lg:text-3xl ">
-            Our Management Team
+          OUR MANAGEMENT TEAM
           </p>
           <div className="  flex flex-wrap gap-3 justify-center  ">
             {teamMembers.map((member) => {
@@ -75,9 +75,9 @@ const Team = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-col space-y-8 mt-3">
+        <div className="flex flex-col space-y-8 mt-10">
           <p className="font-garmond  font-bold text-xl lg:text-3xl ">
-            Our Social Media Team
+          OUR SOCIAL MEDIA TEAM
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
             {/* map function here */}

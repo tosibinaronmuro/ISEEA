@@ -22,7 +22,7 @@ const Home = () => {
       <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
         <div className=" w-[90%] px-[10%] lg:w-[80%] blackRgba h-[40vh] lg:h-[60vh]   ">
           <Image
-            src="/images/homeHero1.jpg"
+            src="/images/homeHero2.jpg"
             alt="team photo"
             width={0}
             height={0}

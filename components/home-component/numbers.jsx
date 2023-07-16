@@ -1,7 +1,10 @@
+"use client";
+import CountUp, { useCountUp } from 'react-countup';
 import React from 'react'
 import Donors from './donors'
 
 const Numbers = () => {
+  
   return (
     <div className="container  mx-auto md:px-6">
    
@@ -18,8 +21,8 @@ const Numbers = () => {
             </div>
           </div>
           <div className="p-6">
-            <h3 className="mb-4   font-bold text-primary text-5xl font-Poiret">
-            700,000+
+            <h3   className="mb-4   font-bold text-primary text-5xl font-Poiret">
+            <CountUp end={700000} enableScrollSpy /><span>+</span>
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
             <p className="text-white font-Poiret font-semibold  ">
@@ -39,7 +42,7 @@ const Numbers = () => {
           </div>
           <div className="p-6">
             <h3 className="mb-4   font-bold text-primary text-5xl font-Poiret">
-              200+
+              <CountUp end={200} enableScrollSpy /> <span>+</span>
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Children</h5>
             <p className="text-white font-Poiret font-semibold  ">
@@ -64,7 +67,7 @@ const Numbers = () => {
           </div>
           <div className="p-6">
             <h3 className="mb-4 text-5xl font-Poiret font-bold text-primary  ">
-              5
+            <CountUp end={5} enableScrollSpy />
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Projects</h5>
             <p className="text-white font-Poiret font-semibold  ">

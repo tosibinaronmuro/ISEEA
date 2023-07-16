@@ -54,8 +54,7 @@ const History = () => {
               Here is a recap of our journey
             </p>
             <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
-              Embark on a transformative journey as we trace the impactful
-              milestones that shape ISEEA's rich history.
+            Embark on a transformative journey that tells the origin of our existence
             </p>
           </div>
         </div>

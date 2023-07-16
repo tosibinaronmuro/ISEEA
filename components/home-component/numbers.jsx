@@ -14,20 +14,16 @@ const Numbers = () => {
           className="block h-full rounded-lg bg-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
-                stroke="currentColor" className="h-7 w-7">
-                <path strokeLinecap="round" strokeLinejoin="round"
-                  d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9" fill='#FCC200' viewBox="0 0 640 512">  <path d="M122.6 46.3c-7.8-11.7-22.4-17-35.9-12.9S64 49.9 64 64V256H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H64V448c0 17.7 14.3 32 32 32s32-14.3 32-32V320H228.2l97.2 145.8c7.8 11.7 22.4 17 35.9 12.9s22.7-16.5 22.7-30.6V320h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H384V64c0-17.7-14.3-32-32-32s-32 14.3-32 32V256H262.5L122.6 46.3zM305.1 320H320v22.3L305.1 320zM185.5 256H128V169.7L185.5 256z"/></svg>
             </div>
           </div>
           <div className="p-6">
             <h3 className="mb-4   font-bold text-primary text-5xl font-Poiret">
-            244,900
+            700,000+
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
             <p className="text-white font-Poiret font-semibold  ">
-            Has been raised so far for projects
+            Has been raised so far
             </p>
           </div>
         </div>
@@ -38,20 +34,16 @@ const Numbers = () => {
           className="block h-full rounded-lg bg-black shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  ">
           <div className="flex justify-center">
             <div className="-mt-8 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-md">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2"
-                stroke="currentColor" className="h-7 w-7">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-9 w-9" fill='#FCC200' viewBox="0 0 640 512"> <path d="M160 0a64 64 0 1 1 0 128A64 64 0 1 1 160 0zM88 480V400H70.2c-10.9 0-18.6-10.7-15.2-21.1l31.1-93.4L57.5 323.3c-10.7 14.1-30.8 16.8-44.8 6.2s-16.8-30.7-6.2-44.8L65.4 207c22.4-29.6 57.5-47 94.6-47s72.2 17.4 94.6 47l58.9 77.7c10.7 14.1 7.9 34.2-6.2 44.8s-34.2 7.9-44.8-6.2l-28.6-37.8L265 378.9c3.5 10.4-4.3 21.1-15.2 21.1H232v80c0 17.7-14.3 32-32 32s-32-14.3-32-32V400H152v80c0 17.7-14.3 32-32 32s-32-14.3-32-32zM480 0a64 64 0 1 1 0 128A64 64 0 1 1 480 0zm-8 384v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V300.5L395.1 321c-9.4 15-29.2 19.4-44.1 10s-19.4-29.2-10-44.1l51.7-82.1c17.6-27.9 48.3-44.9 81.2-44.9h12.3c33 0 63.7 16.9 81.2 44.9L619.1 287c9.4 15 4.9 34.7-10 44.1s-34.7 4.9-44.1-10L552 300.5V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V384H472z"/></svg>
             </div>
           </div>
           <div className="p-6">
             <h3 className="mb-4   font-bold text-primary text-5xl font-Poiret">
-              344,000
+              200+
             </h3>
-            <h5 className="mb-4 text-lg font-medium text-white font-garmond">Naira</h5>
+            <h5 className="mb-4 text-lg font-medium text-white font-garmond">Children</h5>
             <p className="text-white font-Poiret font-semibold  ">
-              Has been raised so far for humanitarian interventions
+              Have been impacted so far through projects and donations
             </p>
           </div>
         </div>
@@ -76,7 +68,7 @@ const Numbers = () => {
             </h3>
             <h5 className="mb-4 text-lg font-medium text-white font-garmond">Projects</h5>
             <p className="text-white font-Poiret font-semibold  ">
-              We have embarked on 5 projects so far and have a lot more projects on our list
+            Have been initiated and we will continue to expand our reach as the need arises
             </p>
           </div>
         </div>

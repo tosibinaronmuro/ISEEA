@@ -46,15 +46,14 @@ const Team = () => {
           Meet Our Dedicated Team.
           </p>
           <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
-          We've assembled an excellent team of passionate volunteers, driven
-            by a shared commitment to creating positive change.
+          We have assembled an excellent team of passionate volunteers who are committed to creating positive change
           </p>
           </div>
         </div>
       </div>
 
       {/* content */}
-      <div className="bg-white  pb-8 pt-5  pl-[10%] pr-[10%] ">
+      <div className="bg-white  pb-8 pt-14  pl-[10%] pr-[10%] ">
         <div className="flex flex-col space-y-8">
           <p className="font-garmond text-xl font-bold lg:text-3xl ">
           OUR MANAGEMENT TEAM

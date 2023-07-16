@@ -607,7 +607,7 @@ const Mission = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0 border border-secondary bg-black p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-xl md:text-2xl lg:text-4xl  text-primary  font-garmond">
+                <span className="block mb-2 text-xl font-semibold md:text-2xl lg:text-4xl  text-primary  font-garmond">
                   Our Vision
                 </span>
                 <p className="mb-8 text-base text-white font-Poiret ">
@@ -618,7 +618,7 @@ const Mission = () => {
                 </p>
               </div>
               <div className="mt-10 lg:mt-0 border border-secondary bg-black p-3 m-2 rounded-xl">
-                <span className="block mb-2 text-xl md:text-2xl lg:text-4xl  text-primary  font-garmond">
+                <span className="block mb-2 text-xl font-semibold md:text-2xl lg:text-4xl  text-primary  font-garmond">
                   Our Mission
                 </span>
                 <p className="mb-8 text-base text-white font-Poiret ">

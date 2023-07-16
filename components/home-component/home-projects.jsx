@@ -13,19 +13,20 @@ const HomeProjects = () => {
           In March 2022, we heard about the story of
     a 15 years old girl in Galadimawa community in FCT-Abuja, who grew up with a father that constantly demoralized her and threatened to kill them. She developed chronic low self-esteem & an intense need to be loved and accepted which made her easy prey for a sexual predator. He took advantage of her low self-esteem & manipulated her into making nude video calls with him which he recorded and eventually, it found its way online. After a visit to the community, we birthed Project H.E.L.P. to teach children within about the importance of self-esteem and its place in preventing sexual abuse. We raised the sum of 193,000 naira through peer to peer fundraising campaign for the project.
           </p>
-
-          <a
-            href="/projects"
-            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg text-primary"
-          >
-            Find out more
-            <span
-              aria-hidden="true"
-              className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+          <div className="rounded-3xl bg-primary flex justify-start w-fit p-2 mt-4 items-center">
+            <a
+              href="/projects"
+              className="group  hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg  text-tertiary"
             >
-              &rarr;
-            </span>
-          </a>
+              Find out more
+              <span
+                aria-hidden="true"
+                className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+              >
+                &rarr;
+              </span>
+            </a>
+          </div>
         </div>
         <div className="min-h-[10vh]flex justify-center items-center m-auto min-w-[30%] lg:min-h-[10vh] lg:min-w-[18%]">
           <img

@@ -18,8 +18,8 @@ export default function Navbar({ fixed }) {
               <Image
                 src="/images/iseea.png"
                 alt="ISEEA Logo"
-                width={60}
-                height={10}
+                width={90}
+                height={30}
                 priority
               />
             </a>

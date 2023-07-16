@@ -10,7 +10,7 @@ const Stories = () => {
       {/* title */}
       <div className="bg-secondary text-tertiary flex justify-center items-center ">
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
-        <p className="font-garmond text-4xl font-bold lg:text-6xl ">Our Stories</p>
+        <p className="font-garmond text-4xl font-bold lg:text-6xl ">Impact Stories</p>
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
       </div>
       {/* image */}
@@ -46,15 +46,14 @@ const Stories = () => {
           Be inspired by our Stories
           </p>
           <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
-          Discover the extraordinary journeys and inspirational stories that
-            fuels our mission for a better world.
+          Discover the extraordinary journeys and inspirational stories of our community members which encourages our ambition to eradicate low self esteem
           </p>
           </div>
         </div>
       </div>
 
       {/* content */}
-      <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">
+      <div className="bg-white flex flex-col  pb-8 pt-14  pl-[10%] pr-[10%] ">
         <p className="font-garmond text-xl font-bold lg:text-3xl ">
           IMPACT STORIES FROM OUR FACEBOOK GROUP
         </p>
@@ -62,7 +61,7 @@ const Stories = () => {
           return <Story author={story.author} story={story.story} />;
         })}
       </div>
-      <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">
+      <div className="bg-white flex flex-col  pb-8 pt-14  pl-[10%] pr-[10%] ">
         <p className="font-garmond text-xl font-bold  lg:text-3xl ">
           HUMANITARIAN INTERVENTIONS
         </p>

@@ -44,7 +44,7 @@ const Projects = () => {
           Projects and Activities
           </p>
           <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
-          Explore our impactful projects and activities that drive positive change, addressing social issues and transforming lives.
+          Explore our impactful projects and activities that drive positive change, addresses social issues, and transform lives
           </p>
           </div>
         </div>

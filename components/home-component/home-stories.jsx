@@ -4,7 +4,9 @@ const AboutStories = () => {
   return (
     <div className="flex flex-col">
       <div>
-        <p className="font-garmond text-xl font-bold lg:text-3xl ">IMPACT STORIES</p>
+        <p className="font-garmond text-xl font-bold lg:text-3xl ">
+          IMPACT STORIES
+        </p>
       </div>
       <div className="flex flex-row gap-x-5 lg:py-5">
         <div className="min-h-[10vh] w-auto flex justify-center items-center m-auto min-w-[30%] lg:min-h-[10vh] lg:min-w-[18%]">
@@ -34,19 +36,20 @@ const AboutStories = () => {
             changed a lot. I'm not perfect but I'm striving for success. Thank
             you
           </p>
-
-          <a
-            href="/stories"
-            className="group mt-4 hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg  text-primary"
-          >
-            Find out more
-            <span
-              aria-hidden="true"
-              className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+          <div className="rounded-3xl bg-primary flex justify-start w-fit p-2 mt-4 items-center">
+            <a
+              href="/stories"
+              className="group  hover:animate-waving-hand inline-flex items-center gap-1 text-sm/relaxed lg:text-lg  text-tertiary"
             >
-              &rarr;
-            </span>
-          </a>
+              Find out more
+              <span
+                aria-hidden="true"
+                className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+              >
+                &rarr;
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -45,9 +45,7 @@ const Footer = () => {
             </div>
 
             <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-              promoting awareness on the importance of self-esteem, the dangers
-              of low self-esteem, and to be a catalyst for a youthful population
-              that is more self-aware and resilient.
+            Promoting awareness on the importance of self esteem, the effects of low self esteem and equipping young people with the knowledge to overcome them.
             </p>
           </div>
           <div className="flex flex-col space-y-5  ">

@@ -57,7 +57,7 @@ const ImageSlider = ({ slides }) => {
       </span>
       <span
         className="absolute hidden lg:block  bottom-0 lg:bottom-72 md:bottom-[50] cursor-pointer text-2xl hover:text-primary text-white z-40 right-9"
-        onClick={prevSlide}
+        onClick={nextSlide}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@ const ImageSlider = ({ slides }) => {
               className="cursor-pointer z-10"
               onClick={() => {
                 updateIndex(index);
-              }}
+              }} key={index}
             >
               <span>
                 <svg

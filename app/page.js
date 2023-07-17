@@ -3,13 +3,16 @@ import AboutStories from "@/components/home-component/home-stories";
 import CoreValues from "@/components/home-component/core-values";
 import Mission from "@/components/home-component/mission";
 import { coreValues } from "@/utilities/core-values";
-import Image from "next/image";
+import { SliderData } from '../components/home-components/sliderData';
 import React from "react";
 import Stories from "./stories/page";
 import HomeProjects from "@/components/home-component/home-projects";
 import Numbers from "@/components/home-component/numbers";
+import ImageSlider from "@/components/home-components/caurosel";
 
 const Home = () => {
+  
+
   return (
     <div className="  min-h-[70vh] ">
       {/* title */}
@@ -19,7 +22,7 @@ const Home = () => {
         <div className="border-b border-tertiary w-10 lg:w-40 md:w-40 m-2"></div>
       </div>
       {/* image */}
-      <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
+      {/* <div className="flex flex-col overflow-hidden justify-center items-center mt-10 relative">
         <div className=" w-[90%] px-[10%] lg:w-[80%] blackRgba h-[40vh] lg:h-[60vh]   ">
           <Image
             src="/images/homeHero2.jpg"
@@ -47,8 +50,22 @@ const Home = () => {
           </p>
           </div>
         </div>
+      </div> */}
+      <div  className="relative">
+      <ImageSlider slides={SliderData}/>
+      <div className="bg-blackRgba w-[100%] blackRgba h-[60vh] lg:h-[80vh] flex flex-col justify-center items-center  absolute bottom-0 left-50 p-2  ">
+          <div className="lg:w-[55%] w-[90%] h-auto lg:mt-44   ">
+          <p className="flex justify-start font-garmond text-base font-bold lg:text-4xl text-white">
+            INITIATIVE FOR SELF ESTEEM EDUCATION AND ADVOCACY (ISEEA)
+          </p>
+          <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
+            Nurturing Self-Esteem, Empowering Nigerian Youth: ISEEA's
+            Transformative Impact through Media, Mentorship, Community Projects and Advocacy.
+          </p>
+          </div>
+        </div>
+     
       </div>
-
       {/* content */}
       <div className="flex flex-col">
       <div className="bg-white flex flex-col  pb-8 pt-5  pl-[10%] pr-[10%] ">

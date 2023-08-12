@@ -73,7 +73,7 @@ const Donate = () => {
         <p className="font-garmond text-xl font-bold lg:text-3xl ">
           Online
         </p>
-        <div className="mb-3">
+        <div className="mb-14">
         <div className="  m-2 md:max-w-[30%] lg:max-w-[30%]  border bg-secondary border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
       <div className="m-3 flex flex-col ">
         <p>Click on the button below to donate</p>
@@ -97,7 +97,7 @@ const Donate = () => {
         <p className="font-garmond text-xl font-bold lg:text-3xl ">
           Bank Transfer
         </p>
-        <div className="flex flex-wrap justify-center mb-3">
+        <div className="flex flex-wrap justify-center mb-14">
         {bankAccounts.map((bank,index)=>{
             return (<BankDetails
             AccountName={bank.AccountName}

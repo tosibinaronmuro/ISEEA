@@ -7,7 +7,7 @@ const Donors = () => {
  
   <section className="mb-3 text-center">
     <h2 className="mb-10 text-3xl font-garmond text-tertiary font-bold">
-      Our Trusted Donors
+      OUR TRUSTED DONORS
     </h2>
 
     <div className="grid px-6  grid-cols-2 lg:grid-cols-7">

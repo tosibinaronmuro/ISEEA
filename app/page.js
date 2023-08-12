@@ -60,7 +60,7 @@ const Home = () => {
           </p>
           <p className="font-Poiret text-xs   lg:text-lg text-white  md:p-4 lg:p-0   ">
             Nurturing Self-Esteem, Empowering Nigerian Youth: ISEEA's
-            Transformative Impact through Media, Mentorship, Community Projects and Advocacy.
+            Transformative Impact is through Media, Mentorship, Community Projects and Advocacy.
           </p>
           </div>
         </div>

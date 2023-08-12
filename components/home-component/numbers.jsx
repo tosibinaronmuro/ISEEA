@@ -9,7 +9,7 @@ const Numbers = () => {
     <div className="container  mx-auto md:px-6">
    
   <section className="  text-center">
-    <h2 className="mb-10 text-3xl font-garmond font-bold">Our Impact</h2>
+    <h2 className="mb-10 text-3xl font-garmond font-bold">OUR IMPACT</h2>
 
     <div className="grid lg:grid-cols-3 lg:gap-x-12">
       <div className="mb-16 lg:mb-0">

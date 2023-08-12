@@ -92,7 +92,7 @@ export default function Navbar({ fixed }) {
                   Team
                 </a>
               </li>
-             
+
               <li className=" w-full lg:w-auto transition ease-in-out delay-150 text-tertiary hover:-translate-y-1 hover:scale-105 hover:text-tertiary  duration-300">
                 <a
                   className=" lg:inline-flex lg:w-auto w-full   rounded items-center   text-tertiary transition hover:text-tertiary/75 px-3 py-2 flex"
@@ -101,6 +101,20 @@ export default function Navbar({ fixed }) {
                 >
                   Blog
                 </a>
+              </li>
+              <li>
+                <button>
+                  <a
+                    className="group relative inline-block focus:outline-none focus:ring"
+                    href="/donate"
+                  >
+                    <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
+
+                    <span className="relative inline-block border-2 border-current font-Poiret font-semibold px-4 py-2 text-sm   uppercase tracking-widest text-tertiary group-active:text-opacity-75">
+                     Donate
+                    </span>
+                  </a>
+                </button>
               </li>
             </ul>
           </div>

@@ -19,7 +19,7 @@ const Story = ({ story, author }) => {
             {story}
             <span className="text-4xl font-garmond text-primary">”</span>
           </p>
-          <div><p onClick={()=>setReadMore(!readMore)} className="font-garmond cursor-pointer mt-4 lg:mt-2 text-primary">Read more</p></div>
+          <div><p onClick={()=>setReadMore(!readMore)} className="font-garmond cursor-pointer mt-4 lg:mt-2 text-primary">{!readMore? "Read more": "Read less"}</p></div>
         </div>
       </div>
     </div>

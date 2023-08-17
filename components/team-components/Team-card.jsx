@@ -2,7 +2,7 @@ import React from 'react'
 
 const TeamMember = ({photo,name,position,bio}) => {
   return (
-    <div   className="group relative block bg-tertiary min-w-[70%] max-w-[71%] min-h-[45vh] lg:min-h-auto  md:min-w-[40%]  h-auto   md:max-w-[45% ] md:max-w-[45%] lg:w-[30%]">
+    <div   className="group relative block bg-tertiary min-w-[95%] max-w-[96%] min-h-[45vh] lg:min-h-auto  md:min-w-[40%]  h-auto   md:max-w-[45% ] md:max-w-[45%] lg:w-[30%]">
   <img
     alt="Developer"
     src={photo}
@@ -11,7 +11,7 @@ const TeamMember = ({photo,name,position,bio}) => {
 
   <div className="relative p-4 sm:p-6 lg:p-8">
    
-    <div className="mt-32 sm:mt-48 lg:mt-64">
+    <div className="mt-64 sm:mt-48 lg:mt-64">
       <div
         className=" transform  transition-all translate-y-0  opacity-100"
       >

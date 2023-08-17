@@ -18,7 +18,7 @@ const Interventions = ({number,story }) => {
             {story}
             <span className="text-4xl font-garmond text-primary">”</span>
           </p>
-          <div className="w-full"><p onClick={()=>setReadMore(!readMore)} className="font-garmond  flex justify-end cursor-pointer mt-4 lg:mt-2 text-primary">Read more</p></div>
+          <div className="w-full"><p onClick={()=>setReadMore(!readMore)} className="font-garmond  flex justify-end cursor-pointer mt-4 lg:mt-2 text-primary">{!readMore? "Read more": "Read less"}</p></div>
         </div>
       </div>
     </div>

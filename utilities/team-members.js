@@ -33,7 +33,7 @@ export const teamMembers = [
     id:4,
     name: "EUNICE AMEH",
     position: "Secretary",
-    photo: "/images/team-members/eunice.jpeg",
+    photo: "/images/team-members/eunice.jpg",
     department: "management",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quibusdam quidem voluptates doloremque

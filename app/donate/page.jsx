@@ -1,8 +1,14 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React,{useState} from "react";
 import BankDetails from "@/components/donate-components/bank";
+import SuccessAlert from "@/components/donate-components/success";
 
 const Donate = () => {
+const [comingSoon, setComingSoon]=useState(false)
+if(comingSoon){
+  setTimeout(() => setComingSoon(false), 2000);  
+}
   const bankAccounts = [
     {
       BankName:"Guaranty Trust Bank",
@@ -77,10 +83,11 @@ const Donate = () => {
         <div className="  m-2 md:max-w-[30%] lg:max-w-[30%]  border bg-secondary border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
       <div className="m-3 flex flex-col ">
         <p>Click on the button below to donate</p>
-      <button className="py-3 ">
+      <button  className="py-3 ">
         <a
           className="group relative  inline-block focus:outline-none focus:ring"
-          href="/"
+          onClick={()=>setComingSoon(true)}
+          // href="/"
         >
           <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-primary transition-transform group-hover:translate-y-0 group-hover:translate-x-0"></span>
 
@@ -89,6 +96,7 @@ const Donate = () => {
           </span>
         </a>
       </button>
+      {comingSoon && <SuccessAlert message={"feature coming soon"} />}
         
       </div>
        

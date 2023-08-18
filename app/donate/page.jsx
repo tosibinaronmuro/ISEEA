@@ -11,25 +11,25 @@ if(comingSoon){
 }
   const bankAccounts = [
     {
-      BankName:"Guaranty Trust Bank",
+      BankName:"GUARANTY TRUST BANK",
       AccountName:'INI. FOR SELF EST. EDU. & ADV.',
       AccountNumber:'0841760429',
       Tag:"Naira",
     },
     {
-      BankName:"Guaranty Trust Bank",
+      BankName:"GUARANTY TRUST BANK",
       AccountName:'INI. FOR SELF EST. EDU. & ADV.',
       AccountNumber:'0841760436',
       Tag:"Dollar",
     },
     {
-      BankName:"Guaranty Trust Bank",
+      BankName:"GUARANTY TRUST BANK",
       AccountName:'INI. FOR SELF EST. EDU. & ADV.',
       AccountNumber:'0841760443',
       Tag:"Pounds",
     },
     {
-      BankName:"Guaranty Trust Bank",
+      BankName:"GUARANTY TRUST BANK",
       AccountName:'INI. FOR SELF EST. EDU. & ADV.',
       AccountNumber:'0841760450',
       Tag:"Euro",

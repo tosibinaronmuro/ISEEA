@@ -9,7 +9,7 @@ const History = () => {
 
   const handleClick = () => {
     // Set the file URL to the path of the PDF file
-    setFileUrl("/pdfs/ISEEAIMPACTREPORT.pdf");
+    setFileUrl("/pdfs/ISEEA Impact Report 2022 - 2023.pdf");
   };
   return (
     <div className="  min-h-[70vh] ">
@@ -66,7 +66,7 @@ const History = () => {
       </div>
       <div className="flex justify-center items-center spaxe-x-6  bg-black  p-4">
         <p className="mx-5 font-garmond text-secondary font-bold text-xl">
-          ISEEA Impact Report
+          ISEEA Impact Report for 2022-2023
         </p>
         
           <a href={fileUrl} download>

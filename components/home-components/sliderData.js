@@ -1,14 +1,15 @@
 export const SliderData = [
   {
-    image: `/images/caurosel1.jpg`,
+    image: `/images/iseeaheropage.jpeg`,
     text: `Welcome to Initiative for Self Esteem Education and Advocacy`,
   },
   {
-    image: `/images/caurosel2.jpg`,
+    image: `/images/caurosel5.jpg`,
+
     text: `Nurturing Self Esteem`,
   },
-    {
-    image: `/images/caurosel5.jpg`,
+  {
+    image: `/images/caurosel2.jpg`,
     text: `Empowering Nigerian Youth`,
   },
   {

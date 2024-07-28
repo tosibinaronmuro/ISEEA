@@ -30,9 +30,9 @@ const BankDetails = ({ BankName, AccountName, AccountNumber, Tag }) => {
   }
   return (
     <div className="  m-2 md:max-w-[30%] lg:max-w-[35%]  border bg-secondary border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
-      <div className="m-3">
-        <div className="flex justify-between">
-          <h2 className="text-lg mb-2">{AccountName}</h2>
+    <div className="m-3">
+      <div className="flex justify-between">
+        <h2 className="text-lg mb-2">{AccountName}</h2>
           {/* <svg
             onClick={() => handleCopy()}
             xmlns="http://www.w3.org/2000/svg"
@@ -105,12 +105,12 @@ const BankDetails = ({ BankName, AccountName, AccountNumber, Tag }) => {
             </svg>
           </div>
         </div>
-        <p className="font-light font-mono text-xl text-gray-700 bg-white px-4 w-fit rounded-lg hover:text-gray-900 transition-all duration-200">
+        <p className="font-light font-mono text-xl text-gray-700 bg-primary px-4 w-fit rounded-lg hover:text-gray-900 transition-all duration-200">
           {AccountNumber}
         </p>
         <div className="flex justify-between">
-          <p className=" ">{BankName}</p>
-          <span className="text-sm text-teal-800 font-mono bg-teal-100 inline rounded-full px-2 align-top float-right animate-pulse">
+          <p className="text-black ">{BankName}</p>
+          <span className="text-sm text-black font-mono bg-primary inline rounded-full px-2 align-top float-right animate-pulse">
             {Tag}
           </span>
         </div>

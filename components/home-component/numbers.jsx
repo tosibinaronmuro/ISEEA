@@ -42,11 +42,11 @@ const Numbers = () => {
           </div>
           <div className="p-6">
             <h3 className="mb-4   font-bold text-primary text-5xl font-Poiret">
-              <CountUp end={200} enableScrollSpy /> <span>+</span>
+              <CountUp end={7000} enableScrollSpy /> <span>+</span>
             </h3>
-            <h5 className="mb-4 text-lg font-medium text-white font-garmond">Children</h5>
+            <h5 className="mb-4 text-lg font-medium text-white font-garmond">People</h5>
             <p className="text-white font-Poiret font-semibold  ">
-              Have been impacted so far through projects and donations
+              Have been impacted so far through physical and virtual projects 
             </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Numbers = () => {
             <h3 className="mb-4 text-5xl font-Poiret font-bold text-primary  ">
             <CountUp end={5} enableScrollSpy />
             </h3>
-            <h5 className="mb-4 text-lg font-medium text-white font-garmond">Projects</h5>
+            <h5 className="mb-4 text-lg font-medium text-white font-garmond">Community Projects</h5>
             <p className="text-white font-Poiret font-semibold  ">
             Have been initiated and we will continue to expand our reach as the need arises
             </p>

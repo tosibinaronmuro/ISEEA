@@ -4,7 +4,7 @@ const HomeProjects = () => {
   return (
     <div className="flex flex-col mt-10">
       <div>
-        <p className="font-garmond text-xl font-bold lg:text-3xl ">PROJECTS</p>
+        <p className="font-garmond text-xl font-bold lg:text-3xl ">COMMUNITY PROJECTS</p>
       </div>
       <div className="flex flex-row gap-x-5 lg:py-5">
         

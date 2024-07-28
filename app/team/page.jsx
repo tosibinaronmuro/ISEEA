@@ -53,10 +53,10 @@ const Team = () => {
       </div>
 
       {/* content */}
-      <div className="bg-white  pb-8 pt-14  pl-[10%] pr-[10%] ">
+      <div className="bg-white  pb-8 pt-14  pl-[5%] pr-[5%] ">
         <div className="flex flex-col space-y-8">
           <p className="font-garmond text-xl font-bold lg:text-3xl ">
-          OUR MANAGEMENT TEAM
+          OUR TRUSTEES
           </p>
           <div className="  flex flex-wrap gap-3 justify-center  ">
             {teamMembers.map((member) => {
@@ -76,7 +76,7 @@ const Team = () => {
         </div>
         <div className="flex flex-col space-y-8 mt-10">
           <p className="font-garmond  font-bold text-xl lg:text-3xl ">
-          OUR SOCIAL MEDIA TEAM
+          VOLUNTEERING STAFF
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
             {/* map function here */}

@@ -76,7 +76,7 @@ const Team = () => {
         </div>
         <div className="flex flex-col space-y-8 mt-10">
           <p className="font-garmond  font-bold text-xl lg:text-3xl ">
-          VOLUNTEERING STAFF
+          OUR TEAM
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
             {/* map function here */}

@@ -101,21 +101,21 @@ export const teamMembers = [
   //         reiciendis nostrum harum. Repudiandae?`,
   // },
 
-  {
-    id: 6,
-    name: "FRANCIS OCHIWU",
-    position: "Volunteer ",
-    photo: "/images/team-members/francis.jpeg",
-    department: "socials",
-    bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quidsbusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?`,
-  },
+  // {
+  //   id: 6,
+  //   name: "FRANCIS OCHIWU",
+  //   position: "Volunteer ",
+  //   photo: "/images/team-members/francis.jpeg",
+  //   department: "socials",
+  //   bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+  //         perferendis hic asperiores quidsbusdam quidem voluptates doloremque
+  //         reiciendis nostrum harum. Repudiandae?`,
+  // },
  
   {
-    id: 6,
+    id: 7,
     name: "FAITH MBANASO",
-    position: "Volunteer ",
+    position: "Programs Manager ",
     photo: "/images/team-members/Faith.jpg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
@@ -123,15 +123,35 @@ export const teamMembers = [
           reiciendis nostrum harum. Repudiandae?`,
   },
   {
-    id: 6,
+    id: 9,
     name: "MERCY OLADIMEJI",
-    position: "Volunteer ",
+    position: "Content Creator and Socisl Media Manager ",
     photo: "/images/team-members/Mercy.jpg",
     department: "socials",
     bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
           perferendis hic asperiores quidsbusdam quidem voluptates doloremque
           reiciendis nostrum harum. Repudiandae?`,
   },
+  {
+      id: 8,
+      name: "JAKE EJEMBI",
+      position: "Community Manager",
+      photo: "/images/team-members/jake.jpeg",
+      department: "socials",
+      bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+      perferendis hic asperiores quibusdam quidem voluptates doloremque
+      reiciendis nostrum harum. Repudiandae?`,
+    },
+    {
+        id: 10,
+        name: "FAVOUR OSONDU",
+        position: "Graphics Designer",
+        photo: "/images/team-members/favorosondu.jpg",
+        department: "socials",
+        bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+        perferendis hic asperiores quibusdam quidem voluptates doloremque
+        reiciendis nostrum harum. Repudiandae?`,
+      },
   // {
   //   id:7,
   //   name: "CHINONSO CHRISTIAN OSUMUNE",
@@ -142,22 +162,22 @@ export const teamMembers = [
   //         perferendis hic asperiores quibusdam quidem voluptates doloremque
   //         reiciendis nostrum harum. Repudiandae?`,
   // },
-  {
-    id: 8,
-    name: "THANKGOD TOLUWALASE",
-    position: "Volunteer",
-    photo: "/images/team-members/thankgod.jpeg",
-    department: "socials",
-    bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-    perferendis hic asperiores quibusdam quidem voluptates doloremque
-    reiciendis nostrum harum. Repudiandae?`,
-  },
-  {
-    id: 9,
-    name: "OMOLOLA OLAYIOYE",
-    position: "Volunteer",
-    photo: "/images/team-members/omololaNew.jpg",
-    department: "socials",
-    bio: `Omolola Olayioye is a law graduate from the University of Abuja. She is adept at research, drafting, debating, mooting, and writing. Her writings have earned her several awards and prizes including a scholarship to the Nigerian law school. She also has several published articles and a personal blog.`,
-  },
+  // {
+  //   id: 8,
+  //   name: "THANKGOD TOLUWALASE",
+  //   position: "Volunteer",
+  //   photo: "/images/team-members/thankgod.jpeg",
+  //   department: "socials",
+  //   bio: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+  //   perferendis hic asperiores quibusdam quidem voluptates doloremque
+  //   reiciendis nostrum harum. Repudiandae?`,
+  // },
+  // {
+  //   id: 9,
+  //   name: "OMOLOLA OLAYIOYE",
+  //   position: "Volunteer",
+  //   photo: "/images/team-members/omololaNew.jpg",
+  //   department: "socials",
+  //   bio: `Omolola Olayioye is a law graduate from the University of Abuja. She is adept at research, drafting, debating, mooting, and writing. Her writings have earned her several awards and prizes including a scholarship to the Nigerian law school. She also has several published articles and a personal blog.`,
+  // },
 ];

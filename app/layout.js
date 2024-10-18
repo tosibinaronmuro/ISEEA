@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 				data-scroll-duration="1000"
 				data-scroll-deceleration="0.96"
 				data-scroll-sensitivity="0.04"
-				data-scroll-isScrolling="false"
+				data-scroll-isscrolling="false"
 				data-scroll-velocity="0"
 				className=""
 			>

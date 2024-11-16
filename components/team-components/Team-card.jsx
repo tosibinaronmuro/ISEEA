@@ -11,9 +11,9 @@ const TeamMember = ({photo,name,position,bio}) => {
 
   <div className="relative p-4 sm:p-6 lg:p-8">
    
-    <div className="mt-[90%] sm:mt-[90%] lg:mt-[90%]">
+    {/* <div className="mt-[140%] sm:mt-[140%] lg:mt-[140%]"> */}
       <div
-        className=" transform  transition-all translate-y-0  opacity-100"
+        className=" absolute bottom-100 h-full w-full p-2"
       >
          <p className="text-base font-medium font-garmond uppercase tracking-widest text-primary">
       {position}
@@ -26,7 +26,7 @@ const TeamMember = ({photo,name,position,bio}) => {
           {bio}
         </p> */}
       </div>
-    </div>
+    {/* </div> */}
   </div>
 </div>
   )

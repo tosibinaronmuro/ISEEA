@@ -74,12 +74,12 @@ const Team = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-col space-y-8 mt-10">
+        {/* <div className="flex flex-col space-y-8 mt-10">
           <p className="font-garmond  font-bold text-xl lg:text-3xl ">
           OUR TEAM
           </p>
           <div className=" flex flex-wrap gap-3 justify-center  ">
-            {/* map function here */}
+             
             {teamMembers.map((member) => {
               if (member.department == "socials") {
                 return (
@@ -94,7 +94,7 @@ const Team = () => {
               }
             })}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
